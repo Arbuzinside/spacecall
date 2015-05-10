@@ -6,16 +6,16 @@
     {"suggested_application": "spaceify/bigscreen", "service_name": "spaceify.org/services/bigscreen", "service_type": "standard"}
   ],
   "name": "SpaceCall",
-  "unique_name": "spacecall",
+  "unique_name": "space",
   "version":"1.0.0",
   "type": "spacelet",
   "category": "multimedia",
   "shared": true,
   "start_command": "node server.js",
   "inject_identifier": "<head>",
-  "inject_hostnames": [ "spacecall.herokuapp.com" ],
+  "inject_hostnames": [ "lionroar.herokuapp.com" ],
   "inject_files": [
-    { "directory": "", "file": "inject.js", "type": "javascript" }
+    { "directory": "", "file": "app.js", "type": "javascript" }
   ],
   "short_description": "Conference calls",
   "developer": {
